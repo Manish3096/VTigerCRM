@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.testdata.DuplicateVendor">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testDuplicateVendor"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DuplicateVendor -->
+      <class name="com.vtiger.testdata.EditVendor1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testEditVendor1"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.EditVendor1 -->
+      <class name="com.vtiger.testdata.MassEditVendor">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testMassEditVendor"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.MassEditVendor -->
+      <class name="com.vtiger.testdata.Restore">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testRestore"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.Restore -->
+      <class name="com.vtiger.testdata.AdvanceSearch">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testAdvanceSearch"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.AdvanceSearch -->
+      <class name="com.vtiger.testdata.EditVendor">
+        <methods>
+          <include name="testEditVendor"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.EditVendor -->
+      <class name="com.vtiger.testdata.CreateDuplicateVendor">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateDuplicateVendor"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.CreateDuplicateVendor -->
+      <class name="com.vtiger.testdata.DelCampaign">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testDelCampaign"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DelCampaign -->
+      <class name="com.vtiger.testdata.ExportVendors">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testExportVendors"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.ExportVendors -->
+      <class name="com.vtiger.testdata.RestoreNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testRestoreNegative"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.RestoreNegative -->
+      <class name="com.vtiger.testdata.ImportVendorNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testImportVendorNegative"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.ImportVendorNegative -->
+      <class name="com.vtiger.testdata.DeleteCampaignNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testDeleteCampaignNegative"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DeleteCampaignNegative -->
+      <class name="com.vtiger.testdata.SearchCampaign">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testSearchCampaign"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.SearchCampaign -->
+      <class name="com.vtiger.testdata.CreateCampaignNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateCampaignNegative"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.CreateCampaignNegative -->
+      <class name="com.vtiger.testdata.AdvanceSearchCampaign1">
+        <methods>
+          <include name="testAdvanceSearchCampaign1"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.AdvanceSearchCampaign1 -->
+      <class name="com.vtiger.testdata.SearchCampaignUsingInvalidData">
+        <methods>
+          <include name="testSearchCampaignUsingInvalidData"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.SearchCampaignUsingInvalidData -->
+      <class name="com.vtiger.testdata.AdvanceSearchNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testAdvanceSearchNegative"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.AdvanceSearchNegative -->
+      <class name="com.vtiger.testdata.DeleteVendorNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testDeleteVendorNegative"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DeleteVendorNegative -->
+      <class name="com.vtiger.testdata.CampaignSettings">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testCampaignSettings"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.CampaignSettings -->
+      <class name="com.vtiger.testdata.CreateNewCampaign">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateNewCampaign"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.CreateNewCampaign -->
+      <class name="com.vtiger.testdata.EmptyRecycleBin">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testEmptyRecycleBin"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.EmptyRecycleBin -->
+      <class name="com.vtiger.testdata.ImportVendor1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testImportVendor1"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.ImportVendor1 -->
+      <class name="com.vtiger.testdata.MassEditCampaign1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testMassEditCampaign1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.MassEditCampaign1 -->
+      <class name="com.vtiger.testdata.CreateVendorAndCancel">
+        <methods>
+          <include name="testCreateVendorAndCancel"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.CreateVendorAndCancel -->
+      <class name="com.vtiger.testdata.AdvanceSearchCampaignNegative">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testAdvanceSearchCampaignNegative"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.AdvanceSearchCampaignNegative -->
+      <class name="com.vtiger.testdata.DelVendorLink">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testDelVendorLink"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DelVendorLink -->
+      <class name="com.vtiger.testdata.VendorsSettings1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="testVendorsSettings1"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.VendorsSettings1 -->
+      <class name="com.vtiger.testdata.AdvanceSearchCampaign2">
+        <methods>
+          <include name="testAdvanceSearchCampaign2"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.AdvanceSearchCampaign2 -->
+      <class name="com.vtiger.testdata.DeleteVendor">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testDeleteVendor"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testdata.DeleteVendor -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

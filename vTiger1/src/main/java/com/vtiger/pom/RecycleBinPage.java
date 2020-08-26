@@ -16,6 +16,8 @@ public class RecycleBinPage {
 	private WebElement emptyRecycleBinBtn;
 	@FindBy(xpath="(//input[@class='crmbutton small edit'])[1]")
 	private WebElement restoreBtn;
+	@FindBy(xpath="//input[@value='Yes']")
+	private WebElement ClickYesBtn;
 	
 	public RecycleBinPage(WebDriver driver)
 	{
@@ -38,7 +40,10 @@ public class RecycleBinPage {
 		return restoreBtn;
 	}
 	
-	
+	public WebElement getClickYesBtn() {
+		return ClickYesBtn;
+	}
+
 	
 
 }

@@ -20,7 +20,7 @@ public class VendorsSettingPage {
 	private WebElement addBlockBtn;
 	@FindBy(xpath="//input[@id='blocklabel']")
 	private WebElement blockNameTextField;
-	@FindBy(xpath="(//input[@class='crmButton small save'])[32]")
+	@FindBy(xpath="//input[@value='Save']")
 	private WebElement smallSaveBtn;
 	
 	public VendorsSettingPage(WebDriver driver)

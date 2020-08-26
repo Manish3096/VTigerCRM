@@ -50,7 +50,7 @@ public class VendorsPage {
 	private WebElement exportVendors;
 	
 	//Vendors settings
-	@FindBy(xpath="//img[@title='C']")
+	@FindBy(xpath="//img[@title='Vendors Settings']")
 	private WebElement vendorsSettings;
 	
 	//Advance Search
@@ -97,8 +97,6 @@ public class VendorsPage {
 	public WebElement getMassEditBtn() {
 		return massEditBtn;
 	}
-
-	
 
 	public WebElement getDeleteBtn() {
 		return deleteBtn;
@@ -172,5 +170,6 @@ public class VendorsPage {
 		return selectionOfVendor;
 	}
 
+	
 	
 }

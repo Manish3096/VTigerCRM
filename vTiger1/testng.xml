@@ -3,8 +3,56 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtiger.testdata.CreateCust"/>
+      <class name="com.vtiger.testdata.AdvanceSearch1"/>
+      <class name="com.vtiger.testdata.AdvanceSearchCampaign"/>
+      <class name="com.vtiger.testdata.MassEditVendor1"/>
+      <class name="com.vtiger.testdata.EditCampaign"/>
+      <class name="com.vtiger.testdata.DuplicateCampaign"/>
+      <class name="com.vtiger.testdata.CreateVendorNegative"/>
+      <class name="com.vtiger.testdata.AdvanceSearch2"/>
+      <class name="com.vtiger.testdata.CreateCampaign"/>
+      <class name="com.vtiger.testdata.ImportVendor"/>
+      <class name="com.vtiger.testdata.DeleteCampaign"/>
+      <class name="com.vtiger.testdata.EditCampaign1"/>
+      <class name="com.vtiger.testdata.SearchCampaignUsingName"/>
+      <class name="com.vtiger.testdata.SearchVendor"/>
       <class name="com.vtiger.testdata.CreateNewVendor"/>
+      <class name="com.vtiger.testdata.CreateDuplicateCampaign"/>
+      <class name="com.vtiger.testdata.SearchVendorUsingInvalidData"/>
+      <class name="com.vtiger.testdata.MassEditCampaignNegative"/>
+      <class name="com.vtiger.testdata.SearchVendorUsingVendorNo"/>
+      <class name="com.vtiger.testdata.MassEditVendorNegative"/>
+      <class name="com.vtiger.testdata.MassEditCampaign"/>
+      <class name="com.vtiger.testdata.VendorsSettings"/>
+      <class name="com.vtiger.testdata.ExportVendors"/>
+      <class name="com.vtiger.testdata.DeleteCampaignNegative"/>
+      <class name="com.vtiger.testdata.CreateVendorAndCancel"/>
+      <class name="com.vtiger.testdata.AdvanceSearch"/>
+      <class name="com.vtiger.testdata.CreateCampaignNegative"/>
+      <class name="com.vtiger.testdata.CreateNewCampaign"/>
+      <class name="com.vtiger.testdata.ImportVendor1"/>
+      <class name="com.vtiger.testdata.DelCampaign"/>
+      <class name="com.vtiger.testdata.EditVendor1"/>
+      <class name="com.vtiger.testdata.CampaignSettings"/>
+      <class name="com.vtiger.testdata.VendorsSettings1"/>
+      <class name="com.vtiger.testdata.RestoreNegative"/>
+      <class name="com.vtiger.testdata.Restore"/>
+      <class name="com.vtiger.testdata.DeleteVendor"/>
+      <class name="com.vtiger.testdata.MassEditVendor"/>
+      <class name="com.vtiger.testdata.SearchCampaignUsingInvalidData"/>
+      <class name="com.vtiger.testdata.DelVendorLink"/>
+      <class name="com.vtiger.testdata.CreateDuplicateVendor"/>
+      <class name="com.vtiger.testdata.AdvanceSearchCampaign1"/>
+      <class name="com.vtiger.testdata.EditVendor"/>
+      <class name="com.vtiger.testdata.MassEditCampaign1"/>
+      <class name="com.vtiger.testdata.AdvanceSearchNegative"/>
+      <class name="com.vtiger.testdata.AdvanceSearchCampaign2"/>
+      <class name="com.vtiger.testdata.ImportVendorNegative"/>
+      <class name="com.vtiger.testdata.AdvanceSearchCampaignNegative"/>
+      <class name="com.vtiger.testdata.DeleteVendorNegative"/>
+      <class name="com.vtiger.testdata.DuplicateVendor"/>
+      <class name="com.vtiger.testdata.EmptyRecycleBin"/>
+      <class name="com.vtiger.testdata.SearchCampaign"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
