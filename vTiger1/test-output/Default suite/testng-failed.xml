@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.testdata.CreateVendorNegative">
+      <class name="com.vtiger.testdata.EditVendor">
         <methods>
+          <include name="testEditVendor"/>
           <include name="openBrowser"/>
-          <include name="testCreateVendorNegative"/>
           <include name="login"/>
           <include name="logout"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.vtiger.testdata.CreateVendorNegative -->
+      </class> <!-- com.vtiger.testdata.EditVendor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

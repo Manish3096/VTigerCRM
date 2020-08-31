@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[browser is closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-20T15:58:00 IST" name="Default suite" finished-at="2020-08-20T15:58:33 IST" duration-ms="33585">
+  <suite started-at="2020-08-30T14:38:05 IST" name="Default suite" finished-at="2020-08-30T14:39:07 IST" duration-ms="61890">
     <groups>
     </groups>
-    <test started-at="2020-08-20T15:58:00 IST" name="Default test" finished-at="2020-08-20T15:58:33 IST" duration-ms="33585">
-      <class name="com.vtiger.testdata.CreateVendorNegative">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtiger.testdata.CreateVendorNegative@d706f19]" started-at="2020-08-20T15:58:00 IST" name="openBrowser" finished-at="2020-08-20T15:58:10 IST" duration-ms="10431" status="PASS">
+    <test started-at="2020-08-30T14:38:05 IST" name="Default test" finished-at="2020-08-30T14:39:07 IST" duration-ms="61890">
+      <class name="com.vtiger.testdata.EditVendor">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:05 IST" name="openBrowser" finished-at="2020-08-30T14:38:16 IST" duration-ms="11067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.vtiger.testdata.CreateVendorNegative@d706f19]" started-at="2020-08-20T15:58:10 IST" name="login" finished-at="2020-08-20T15:58:14 IST" duration-ms="4071" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:16 IST" name="login" finished-at="2020-08-30T14:38:22 IST" duration-ms="6245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testCreateVendorNegative()[pri:0, instance:com.vtiger.testdata.CreateVendorNegative@d706f19]" started-at="2020-08-20T15:58:14 IST" name="testCreateVendorNegative" finished-at="2020-08-20T15:58:28 IST" duration-ms="13732" status="PASS">
+        <test-method signature="testEditVendor()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:22 IST" name="testEditVendor" finished-at="2020-08-30T14:39:00 IST" duration-ms="37411" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateVendorNegative -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtiger.testdata.CreateVendorNegative@d706f19]" started-at="2020-08-20T15:58:28 IST" name="logout" finished-at="2020-08-20T15:58:33 IST" duration-ms="5254" status="PASS">
+        </test-method> <!-- testEditVendor -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:39:00 IST" name="logout" finished-at="2020-08-30T14:39:06 IST" duration-ms="6576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.testdata.CreateVendorNegative@d706f19]" started-at="2020-08-20T15:58:33 IST" name="closeBrowser" finished-at="2020-08-20T15:58:33 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:39:06 IST" name="closeBrowser" finished-at="2020-08-30T14:39:07 IST" duration-ms="421" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[browser is closed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtiger.testdata.CreateVendorNegative -->
+      </class> <!-- com.vtiger.testdata.EditVendor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -36,8 +36,8 @@ public class BaseClass {
 	@AfterTest
 	public void closeBrowser()
 	{
-//		driver.close();
-//		Reporter.log("browser is closed",true);
+		driver.close();
+		Reporter.log("browser is closed",true);
 	}
 	
 	@BeforeMethod

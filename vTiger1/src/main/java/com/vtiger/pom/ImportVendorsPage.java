@@ -8,15 +8,22 @@ import org.openqa.selenium.support.PageFactory;
 public class ImportVendorsPage {
 	@FindBy(id="import_file")
 	private WebElement chooseFile;
-	@FindBy(className="crmButton big edit")
+	@FindBy(xpath="//input[@value='Next']")
 	private WebElement nextBtn;
-	@FindBy(className="crmButton big cancel")
+	@FindBy(xpath="//input[@value='Cancel']")
 	private WebElement cancelButton;
 	@FindBy(xpath="(//select[@class='txtBox'])[1]")
 	private WebElement crmFieldsListbox;
-	@FindBy(className="crmButton big edit")
+	@FindBy(xpath="(//input[@value='Import'])[2]")
 	private WebElement importBtn;
+	@FindBy(xpath="//input[@value='Finish']")
+	private WebElement FinishBtn;
 	
+	public WebElement getFinishBtn() {
+		return FinishBtn;
+	}
+
+
 	public ImportVendorsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
