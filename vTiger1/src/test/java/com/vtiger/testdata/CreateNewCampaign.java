@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,22 +21,22 @@ public class CreateNewCampaign extends BaseClass {
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
-		//click on create campaign
+		Reporter.log("click on create campaign",true);
 		CampaignPage cp=new CampaignPage(driver);
 		cp.getCreateCampaign().click();
 		Thread.sleep(3000);
-		//enter campaign name into text field
+		Reporter.log("enter campaign name into text field",true);
 		CreateNewCampaignPage cn=new CreateNewCampaignPage(driver);
 		String campaignName = f.getExcelData("CreateCampaign", 1, 0);
 		cn.getCampaignNameTextField().sendKeys(campaignName);
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		cn.getSaveButton().click();
 		Thread.sleep(3000);
-		//navigate back to campaigns link
+		Reporter.log("navigate back to campaigns link",true);
 		cn.getCampaignLink().click();
 		Thread.sleep(3000);
 		

@@ -6,6 +6,7 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
@@ -20,24 +21,24 @@ public class VendorsSettings1 extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors link
+		Reporter.log("click on vendors link",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//click on vendors settings
+		Reporter.log("click on vendors settings",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getVendorsSettings().click();
 		Thread.sleep(3000);
-		//click on layout editor
+		Reporter.log("click on layout editor",true);
 		VendorsSettingPage vs=new VendorsSettingPage(driver);
 		vs.getLayoutEditor().click();
 		Thread.sleep(3000);
-		//click on add block
+		Reporter.log("click on add block",true);
 		vs.getAddBlockBtn().click();
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		vs.getSmallSaveBtn().click();
 		Thread.sleep(3000);
-		//handle the pop up
+		Reporter.log("handle the pop up",true);
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		Thread.sleep(3000);

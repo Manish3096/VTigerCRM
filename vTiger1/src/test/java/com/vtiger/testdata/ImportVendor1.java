@@ -2,6 +2,7 @@ package com.vtiger.testdata;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -17,24 +18,24 @@ public class ImportVendor1 extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors link
+		Reporter.log("click on vendors link",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//click on import vendor
+		Reporter.log("click on import vendor",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getImportVendors().click();
 		Thread.sleep(3000);
-		//choose a file
+		Reporter.log("choose a file",true);
 		ImportVendorsPage ip=new ImportVendorsPage(driver);
 		ip.getChooseFile().sendKeys("C:\\Users\\HP\\git\\repository\\Vtiger\\vTiger1\\src\\test\\resources\\data\\abc.CSV");
 		Thread.sleep(3000);
-		//click on next button
+		Reporter.log("click on next button",true);
 		ip.getNextBtn().click();
 		Thread.sleep(3000);
-		//click on import button
+		Reporter.log("click on import button",true);
 		ip.getImportBtn().click();
 		Thread.sleep(3000);
-		//handle alert popup
+		Reporter.log("handle alert popup",true);
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		Thread.sleep(3000);

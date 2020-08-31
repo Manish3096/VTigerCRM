@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -21,26 +22,26 @@ public class CreateDuplicateCampaign extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
 		CampaignPage cp=new CampaignPage(driver);
-		//click on campaign name
+		Reporter.log("click on campaign name",true);
 		cp.getSelectionOfCampaign().click();
 		Thread.sleep(3000);
-		//click on duplicate button
+		Reporter.log("click on duplicate button",true);
 		CreatingDuplicateCampaign cd=new CreatingDuplicateCampaign(driver);
 		cd.getDuplicateBtn().click();
 		Thread.sleep(3000);
-		//enter campaign name
+		Reporter.log("enter campaign name",true);
 		String name = f.getExcelData("CreateCampaign", 1, 0);
 		cd.getCampaignNameTextField().clear();
 		cd.getCampaignNameTextField().sendKeys(name);
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		cd.getSaveButton().click();
 		Thread.sleep(3000);
-		//navigate back campaigns page
+		Reporter.log("navigate back campaigns page",true);
 		cd.getNavigatingToCampaign().click();
 		Thread.sleep(3000);
 		

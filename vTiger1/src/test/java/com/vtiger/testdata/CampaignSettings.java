@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,36 +21,36 @@ public class CampaignSettings extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
-		//click on campaign settings
+		Reporter.log("click on campaign settings",true);
 		CampaignPage cp=new CampaignPage(driver);
 		cp.getcampaignSettings().click();
 		Thread.sleep(3000);
-		//click on layout editor
+		Reporter.log("click on layout editor",true);
 		CampaignSettingsPage cs=new CampaignSettingsPage(driver);
 		cs.getLayoutEditor().click();
 		Thread.sleep(3000);
-		//click on arranged list button
+		Reporter.log("click on arranged list button",true);
 		cs.getArrangeRelatedListBtn().click();
 		Thread.sleep(3000);
-		//click on up and down arrow
+		Reporter.log("click on up and down arrow",true);
 		cs.getUpArrow().click();
 		Thread.sleep(3000);
 		cs.getDownArrow().click();
 		Thread.sleep(3000);
-		//click on close button
+		Reporter.log("click on close button",true);
 		cs.getCloseBtn().click();
 		Thread.sleep(3000);
-		//click on add block button
+		Reporter.log("click on add block button",true);
 		cs.getAddBlockBtn().click();
 		Thread.sleep(3000);
-		//enter block name
+		Reporter.log("enter block name",true);
 		String name = f.getExcelData("CreateCampaign", 1, 4);
 		cs.getBlockNameTextField().sendKeys(name);
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		cs.getSmallSaveBtn().click();
 		Thread.sleep(3000);
 		

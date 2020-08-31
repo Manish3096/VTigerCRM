@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,24 +21,24 @@ public class MassEditCampaign extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
-		//select check box
+		Reporter.log("select check box",true);
 		CampaignPage cp=new CampaignPage(driver);
 		cp.getCheckbox().get(1).click();
 		Thread.sleep(3000);
 		cp.getCheckbox().get(3).click();
 		Thread.sleep(3000);
-		//click on mass edit button
+		Reporter.log("click on mass edit button",true);
 		cp.getMassEditBtn().click();
 		Thread.sleep(3000);
-		//enter campaign name
+		Reporter.log("enter campaign name",true);
 		MassEditCampaignPage me=new MassEditCampaignPage(driver);
 		String name = f.getExcelData("CreateCampaign", 3, 0);
 		me.getCampaignNameTextField().sendKeys(name);
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		me.getMassEditSaveBtn().click();
 		Thread.sleep(3000);
 	

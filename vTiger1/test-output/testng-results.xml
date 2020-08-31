@@ -5,35 +5,35 @@
       <![CDATA[browser is closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-08-24T21:04:55 IST" name="Default suite" finished-at="2020-08-24T21:05:56 IST" duration-ms="60358">
+  <suite started-at="2020-08-30T14:38:05 IST" name="Default suite" finished-at="2020-08-30T14:39:07 IST" duration-ms="61890">
     <groups>
     </groups>
-    <test started-at="2020-08-24T21:04:55 IST" name="Default test" finished-at="2020-08-24T21:05:56 IST" duration-ms="60358">
-      <class name="com.vtiger.testdata.VendorsSettings1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtiger.testdata.VendorsSettings1@77167fb7]" started-at="2020-08-24T21:04:55 IST" name="openBrowser" finished-at="2020-08-24T21:05:06 IST" duration-ms="10888" status="PASS">
+    <test started-at="2020-08-30T14:38:05 IST" name="Default test" finished-at="2020-08-30T14:39:07 IST" duration-ms="61890">
+      <class name="com.vtiger.testdata.EditVendor">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:05 IST" name="openBrowser" finished-at="2020-08-30T14:38:16 IST" duration-ms="11067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.vtiger.testdata.VendorsSettings1@77167fb7]" started-at="2020-08-24T21:05:06 IST" name="login" finished-at="2020-08-24T21:05:15 IST" duration-ms="8759" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:16 IST" name="login" finished-at="2020-08-30T14:38:22 IST" duration-ms="6245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testVendorsSettings1()[pri:0, instance:com.vtiger.testdata.VendorsSettings1@77167fb7]" started-at="2020-08-24T21:05:15 IST" name="testVendorsSettings1" finished-at="2020-08-24T21:05:47 IST" duration-ms="31570" status="PASS">
+        <test-method signature="testEditVendor()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:38:22 IST" name="testEditVendor" finished-at="2020-08-30T14:39:00 IST" duration-ms="37411" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVendorsSettings1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtiger.testdata.VendorsSettings1@77167fb7]" started-at="2020-08-24T21:05:47 IST" name="logout" finished-at="2020-08-24T21:05:51 IST" duration-ms="4809" status="PASS">
+        </test-method> <!-- testEditVendor -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:39:00 IST" name="logout" finished-at="2020-08-30T14:39:06 IST" duration-ms="6576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.testdata.VendorsSettings1@77167fb7]" started-at="2020-08-24T21:05:52 IST" name="closeBrowser" finished-at="2020-08-24T21:05:56 IST" duration-ms="4237" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.testdata.EditVendor@6973bf95]" started-at="2020-08-30T14:39:06 IST" name="closeBrowser" finished-at="2020-08-30T14:39:07 IST" duration-ms="421" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser is closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtiger.testdata.VendorsSettings1 -->
+      </class> <!-- com.vtiger.testdata.EditVendor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

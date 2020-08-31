@@ -2,6 +2,7 @@ package com.vtiger.testdata;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -16,14 +17,14 @@ public class MassEditCampaignNegative extends BaseClass {
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
 		CampaignPage cp=new CampaignPage(driver);
-		//click on mass edit button
+		Reporter.log("click on mass edit button",true);
 		cp.getMassEditBtn().click();
 		Thread.sleep(3000);
-		//handle the alert pop up
+		Reporter.log("handle the alert pop up",true);
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		Thread.sleep(3000);

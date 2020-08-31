@@ -1,6 +1,7 @@
 package com.vtiger.testdata;
 
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -16,15 +17,15 @@ public class EditCampaign1 extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on campaign link
+		Reporter.log("click on campaign link",true);
 		h.getCampaignsLink().click();
 		Thread.sleep(3000);
-		//click on edit link
+		Reporter.log("click on edit link",true);
 		CampaignPage cp=new CampaignPage(driver);
 		cp.getEditLink().click();
 		Thread.sleep(3000);
 		EditCampaignInformationPage ec=new EditCampaignInformationPage(driver);
-		//click on save button
+		Reporter.log("click on save button",true);
 		ec.getSaveButton().click();
 		Thread.sleep(3000);
 	}

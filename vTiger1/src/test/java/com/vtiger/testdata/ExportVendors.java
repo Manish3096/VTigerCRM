@@ -1,6 +1,7 @@
 package com.vtiger.testdata;
 
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -16,14 +17,14 @@ public class ExportVendors extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors link
+		Reporter.log("click on vendors link",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//click on export vendors
+		Reporter.log("click on export vendors",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getExportVendors().click();
 		Thread.sleep(3000);
-		//click on export button
+		Reporter.log("click on export button",true);
 		ExportVendorsPage ep=new ExportVendorsPage(driver);
 		ep.getExportVendorsBtn().click();
 		Thread.sleep(3000);

@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,35 +21,35 @@ public class VendorsSettings extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors link
+		Reporter.log("click on vendors link",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//click on vendors settings
+		Reporter.log("click on vendors settings",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getVendorsSettings().click();
 		Thread.sleep(3000);
-		//click on layout editor
+		Reporter.log("click on layout editor",true);
 		VendorsSettingPage vs=new VendorsSettingPage(driver);
 		vs.getLayoutEditor().click();
 		Thread.sleep(3000);
-		//click on arranged list button
+		Reporter.log("click on arranged list button",true);
 		vs.getArrangeRelatedListBtn().click();
 		Thread.sleep(3000);
-		//click up and down arrow
+		Reporter.log("click up and down arrow",true);
 		vs.getDownArrow().click();
 		Thread.sleep(3000);
 		vs.getUpArrow().click();
 		Thread.sleep(3000);
-		//close the pop up
+		Reporter.log("close the pop up",true);
 		vs.getCloseBtn().click();
-		//click on add block
+		Reporter.log("click on add block",true);
 		vs.getAddBlockBtn().click();
 		Thread.sleep(3000);
-		//enter block name
+		Reporter.log("enter block name",true);
 		String name = f.getExcelData("Sheet1", 3, 4);
 		vs.getBlockNameTextField().sendKeys(name);
 		Thread.sleep(3000);
-		//click on save button
+		Reporter.log("click on save button",true);
 		vs.getSmallSaveBtn().click();
 		Thread.sleep(3000);
 		

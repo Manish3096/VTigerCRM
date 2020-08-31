@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -18,21 +19,21 @@ public class Restore extends BaseClass {
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on recycle bin link
+		Reporter.log("click on recycle bin link",true);
 		h.getRecycleBin().click();
 		Thread.sleep(3000);
-		//select a particular module from list box
+		Reporter.log("select a particular module from list box",true);
 		RecycleBinPage r=new RecycleBinPage(driver);
 		Select s=new Select(r.getSelectModuleListBox());
 		s.selectByVisibleText("Vendors");
 		Thread.sleep(3000);
-		//select one of the entity
+		Reporter.log("select one of the entity",true);
 		r.getCheckbox().get(1).click();
 		Thread.sleep(3000);
-		//click on restore button
+		Reporter.log("click on restore button",true);
 		r.getRestoreBtn().click();
 		Thread.sleep(3000);
-		//handle the confirmation pop up
+		Reporter.log("handle the confirmation pop up",true);
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		Thread.sleep(3000);

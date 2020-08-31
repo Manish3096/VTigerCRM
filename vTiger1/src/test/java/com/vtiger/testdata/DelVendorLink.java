@@ -2,6 +2,7 @@ package com.vtiger.testdata;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -16,14 +17,14 @@ public class DelVendorLink extends BaseClass{
 		HomePage h =new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors link
+		Reporter.log("click on vendors link",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//click on del link
+		Reporter.log("click on del link",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getDelLink().click();
 		Thread.sleep(3000);
-		//handle the confirmation pop up
+		Reporter.log("handle the confirmation pop up",true);
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		Thread.sleep(3000);

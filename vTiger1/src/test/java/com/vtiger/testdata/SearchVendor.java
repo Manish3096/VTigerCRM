@@ -6,6 +6,7 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
@@ -19,22 +20,22 @@ public class SearchVendor extends BaseClass{
 		HomePage h=new HomePage(driver);
 		Actions a=new Actions(driver);
 		a.moveToElement(h.getMoreLink()).perform();
-		//click on vendors
+		Reporter.log("click on vendors",true);
 		h.getVendorsLink().click();
 		Thread.sleep(3000);
-		//search for vendor
+		Reporter.log("search for vendor",true);
 		VendorsPage vp=new VendorsPage(driver);
 		vp.getSearchTextField().click();
 		Thread.sleep(3000);
-		//enter vendor name
+		Reporter.log("enter vendor name",true);
 		String vendorName = f.getExcelData("Sheet1", 1, 0);
 		vp.getSearchTextField().sendKeys(vendorName);
 		Thread.sleep(3000);
-		//select vendor name from listbox
+		Reporter.log("select vendor name from listbox",true);
 		Select s=new Select(vp.getSearchFieldInListBox());
 		s.selectByIndex(1);
 		Thread.sleep(3000);
-		//click on search now button
+		Reporter.log("click on search now button",true);
 		vp.getSearchNowBtn().click();
 		Thread.sleep(3000);
 		
