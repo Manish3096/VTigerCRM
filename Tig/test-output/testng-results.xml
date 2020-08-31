@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[click on More dropdown]]>
+    </line>
+    <line>
+      <![CDATA[click on Purchase Order link]]>
+    </line>
+    <line>
+      <![CDATA[click on create purchase button]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Vendor button]]>
+    </line>
+    <line>
+      <![CDATA[ get Multiple window address]]>
+    </line>
+    <line>
+      <![CDATA[Parent window address]]>
+    </line>
+    <line>
+      <![CDATA[Child window address]]>
+    </line>
+    <line>
+      <![CDATA[ Child window address]]>
+    </line>
+    <line>
+      <![CDATA[switch the control to child Vendor window address]]>
+    </line>
+    <line>
+      <![CDATA[switch the control to Parent window address]]>
+    </line>
+    <line>
+      <![CDATA[ Enter the Subject]]>
+    </line>
+    <line>
+      <![CDATA[ Enter the date]]>
+    </line>
+    <line>
+      <![CDATA[ Select the status]]>
+    </line>
+    <line>
+      <![CDATA[ Enter the Billing address]]>
+    </line>
+    <line>
+      <![CDATA[ click on copybillingaddress radiobutton]]>
+    </line>
+    <line>
+      <![CDATA[ scroll down to item details present in CreatePurchaseOrder]]>
+    </line>
+    <line>
+      <![CDATA[ click on Products button]]>
+    </line>
+    <line>
+      <![CDATA[ get Multiple window address]]>
+    </line>
+    <line>
+      <![CDATA[ Parent window address]]>
+    </line>
+    <line>
+      <![CDATA[ child data window address]]>
+    </line>
+    <line>
+      <![CDATA[ child Product window address]]>
+    </line>
+    <line>
+      <![CDATA[ switch the control to child Product window address]]>
+    </line>
+    <line>
+      <![CDATA[ click on product name]]>
+    </line>
+    <line>
+      <![CDATA[ switch the control to Parent window address]]>
+    </line>
+    <line>
+      <![CDATA[ Entered the qty]]>
+    </line>
+    <line>
+      <![CDATA[ click on save button]]>
+    </line>
+    <line>
+      <![CDATA[ click on more dropdown]]>
+    </line>
+    <line>
+      <![CDATA[ click on PurchaseOrder link]]>
+    </line>
+    <line>
+      <![CDATA[ select the subject]]>
+    </line>
+    <line>
+      <![CDATA[ click on Dulplicate button]]>
+    </line>
+    <line>
+      <![CDATA[ Click on save button]]>
+    </line>
+    <line>
+      <![CDATA[ Click on PurchaseOrder Tab]]>
+    </line>
+    <line>
+      <![CDATA[Duplicate Purchase Order is Created.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62266" started-at="2020-08-31T09:54:14Z" finished-at="2020-08-31T09:55:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62266" started-at="2020-08-31T09:54:14Z" finished-at="2020-08-31T09:55:16Z">
+      <class name="com.Tig.test.CreateDuplicatePurchaseOrder1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Tig.test.CreateDuplicatePurchaseOrder1@f10a6f]" name="openBrowser" is-config="true" duration-ms="6789" started-at="2020-08-31T15:24:14Z" finished-at="2020-08-31T15:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.Tig.test.CreateDuplicatePurchaseOrder1@f10a6f]" name="login" is-config="true" duration-ms="7341" started-at="2020-08-31T15:24:20Z" finished-at="2020-08-31T15:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="toCreateDuplicate1()[pri:0, instance:com.Tig.test.CreateDuplicatePurchaseOrder1@f10a6f]" name="toCreateDuplicate1" duration-ms="43627" started-at="2020-08-31T15:24:28Z" finished-at="2020-08-31T15:25:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on More dropdown]]>
+            </line>
+            <line>
+              <![CDATA[click on Purchase Order link]]>
+            </line>
+            <line>
+              <![CDATA[click on create purchase button]]>
+            </line>
+            <line>
+              <![CDATA[ Click on Vendor button]]>
+            </line>
+            <line>
+              <![CDATA[ get Multiple window address]]>
+            </line>
+            <line>
+              <![CDATA[Parent window address]]>
+            </line>
+            <line>
+              <![CDATA[Child window address]]>
+            </line>
+            <line>
+              <![CDATA[ Child window address]]>
+            </line>
+            <line>
+              <![CDATA[switch the control to child Vendor window address]]>
+            </line>
+            <line>
+              <![CDATA[switch the control to Parent window address]]>
+            </line>
+            <line>
+              <![CDATA[ Enter the Subject]]>
+            </line>
+            <line>
+              <![CDATA[ Enter the date]]>
+            </line>
+            <line>
+              <![CDATA[ Select the status]]>
+            </line>
+            <line>
+              <![CDATA[ Enter the Billing address]]>
+            </line>
+            <line>
+              <![CDATA[ click on copybillingaddress radiobutton]]>
+            </line>
+            <line>
+              <![CDATA[ scroll down to item details present in CreatePurchaseOrder]]>
+            </line>
+            <line>
+              <![CDATA[ click on Products button]]>
+            </line>
+            <line>
+              <![CDATA[ get Multiple window address]]>
+            </line>
+            <line>
+              <![CDATA[ Parent window address]]>
+            </line>
+            <line>
+              <![CDATA[ child data window address]]>
+            </line>
+            <line>
+              <![CDATA[ child Product window address]]>
+            </line>
+            <line>
+              <![CDATA[ switch the control to child Product window address]]>
+            </line>
+            <line>
+              <![CDATA[ click on product name]]>
+            </line>
+            <line>
+              <![CDATA[ switch the control to Parent window address]]>
+            </line>
+            <line>
+              <![CDATA[ Entered the qty]]>
+            </line>
+            <line>
+              <![CDATA[ click on save button]]>
+            </line>
+            <line>
+              <![CDATA[ click on more dropdown]]>
+            </line>
+            <line>
+              <![CDATA[ click on PurchaseOrder link]]>
+            </line>
+            <line>
+              <![CDATA[ select the subject]]>
+            </line>
+            <line>
+              <![CDATA[ click on Dulplicate button]]>
+            </line>
+            <line>
+              <![CDATA[ Click on save button]]>
+            </line>
+            <line>
+              <![CDATA[ Click on PurchaseOrder Tab]]>
+            </line>
+            <line>
+              <![CDATA[Duplicate Purchase Order is Created.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateDuplicate1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.Tig.test.CreateDuplicatePurchaseOrder1@f10a6f]" name="logout" is-config="true" duration-ms="3643" started-at="2020-08-31T15:25:11Z" finished-at="2020-08-31T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Tig.test.CreateDuplicatePurchaseOrder1@f10a6f]" name="closeBrowser" is-config="true" duration-ms="840" started-at="2020-08-31T15:25:15Z" finished-at="2020-08-31T15:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Tig.test.CreateDuplicatePurchaseOrder1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

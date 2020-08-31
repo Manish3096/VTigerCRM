@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.Tig.test.EditFilterSales2"/>
+      <class name="com.Tig.test.EditFilter1"/>
+      <class name="com.Tig.test.DeleteFilterSales1"/>
+      <class name="com.Tig.test.EditFilterSales1"/>
+      <class name="com.Tig.test.EditFilter2"/>
+      <class name="com.Tig.test.EditPurchaseOrder1"/>
+      <class name="com.Tig.test.SearchSalesOrder1"/>
+      <class name="com.Tig.test.CreateFilterSales2"/>
+      <class name="com.Tig.test.CreateFilterSales1"/>
+      <class name="com.Tig.test.SearchSalesOrder2"/>
+      <class name="com.Tig.test.SearchPurchaseOrder2"/>
+      <class name="com.Tig.test.SearchPurchaseOrder1"/>
+      <class name="com.Tig.test.EditPurchaseOrder2"/>
+      <class name="com.Tig.test.CreateInvoice1"/>
+      <class name="com.Tig.test.DeletePurchaseOrder1"/>
+      <class name="com.Tig.test.CreateInvoice3"/>
+      <class name="com.Tig.test.CreateInvoice2"/>
+      <class name="com.Tig.test.DeletePurchaseOrder2"/>
+      <class name="com.Tig.test.CreateDuplicatePurchaseOrder2"/>
+      <class name="com.Tig.test.CreateDuplicatePurchaseOrder1"/>
+      <class name="com.Tig.test.CreateSalesOrder1"/>
+      <class name="com.Tig.test.EditSalesOrder1"/>
+      <class name="com.Tig.test.EditSalesOrder2"/>
+      <class name="com.Tig.test.CreateSalesOrder2"/>
+      <class name="com.Tig.test.CreateSalesOrder3"/>
+      <class name="com.Tig.test.CreatePurchaseOrder2"/>
+      <class name="com.Tig.test.DeleteSalesOrder1"/>
+      <class name="com.Tig.test.CreatePurchaseOrder3"/>
+      <class name="com.Tig.test.CreatePurchaseOrder1"/>
+      <class name="com.Tig.test.CreateFilter1"/>
+      <class name="com.Tig.test.CreateFilter2"/>
+      <class name="com.Tig.test.CreateFilter3"/>
+      <class name="com.Tig.test.DeleteSalesOrder2"/>
+      <class name="com.Tig.test.DeleteFilter1"/>
+      <class name="com.Tig.test.EditFilter3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
